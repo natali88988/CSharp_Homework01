@@ -6,7 +6,6 @@ List<String>[] timeInOut = new List<String>[count];
 // заполнение массива списков прихода-ухода каждого покупателя
 for (int i=0; i<count; i++){
     Console.Write($"Введите время прихода и ухода посетителя № {i+1} (например, 10-13): ");
-   // string s = Console.ReadLine();
     timeInOut[i] = Console.ReadLine().Split('-').ToList();
 }
 
